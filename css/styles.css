@@ -1,7 +1,15 @@
 /*
 font-family: 'Maven Pro', sans-serif;
 font-family: 'Quattrocento', serif;
+
+vert: #57BB6B
+vert clair: #C4F2AD
 */
+
+html {
+  border-top: 8px solid #57BB6B;
+
+}
 
 body {
   max-width: 380px;
@@ -11,15 +19,23 @@ body {
 
 .site-header {
   background: url(../img/background-fruits.webp);
+  background-size: cover;
   padding: 30px;
+  color: #57BB6B;
 }
 
 .site-header .title-container {
   background: #ffffffdd;
-  padding: 20px;
+  padding: 20px 50px;
   text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
 }
 
 .site-header .subtitle {
   font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  margin: 0;
 }
