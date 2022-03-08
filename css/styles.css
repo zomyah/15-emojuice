@@ -39,3 +39,46 @@ body {
   font-size: 20px;
   margin: 0;
 }
+
+.site-footer {
+  color: #57BB6B;
+  text-align: center;
+  padding: 30px;
+}
+
+.site-footer .impressum{
+  padding: 30px 40px 20px;
+  font-size: 12px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background:#57BB6B;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: #C4F2AD;
+  color: #333;
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.fruits-container img {
+  width: 30px;
+}
