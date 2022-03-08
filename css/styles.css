@@ -1,0 +1,25 @@
+/*
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Quattrocento', serif;
+*/
+
+body {
+  max-width: 380px;
+  margin: auto;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.site-header {
+  background: url(../img/background-fruits.webp);
+  padding: 30px;
+}
+
+.site-header .title-container {
+  background: #ffffffdd;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-header .subtitle {
+  font-family: 'Quattrocento', serif;
+}
