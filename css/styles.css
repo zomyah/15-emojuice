@@ -1,0 +1,19 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+header h1 {
+  font-family: 'Sriracha', cursive;
+  color: rgb(129, 185, 111);
+  font-size: 44px;
+}
+
+header p {
+  font-size: 20px;
+  color: rgb(129, 185, 111);
+}
+
+.btn-header {
+  background-color: rgb(129, 185, 111) ;
+  padding: 15px 25px 15px 25px;
+}
