@@ -2,18 +2,45 @@ body {
   font-family: 'Maven Pro', sans-serif;
 }
 
+header {
+  background-color: aqua;
+  padding-top: 8px;
+}
+
 header h1 {
   font-family: 'Sriracha', cursive;
   color: rgb(129, 185, 111);
   font-size: 44px;
+  text-align: center;
 }
 
-header p {
+.title-box p {
   font-size: 20px;
   color: rgb(129, 185, 111);
 }
 
 .btn-header {
   background-color: rgb(129, 185, 111) ;
-  padding: 15px 25px 15px 25px;
+  width: 244px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.btn-header-light {
+  background-color: white;
+  width: 244px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 20px;
+  color: rgb(129, 185, 111);
+}
+.btn-header-light:active {
+  color: rgb(129, 185, 111);
+}
+.title-box {
+  width: 320px;
+  text-align: center;
+  width: 244px;
 }
