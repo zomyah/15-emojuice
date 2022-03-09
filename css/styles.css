@@ -6,6 +6,8 @@ vert: #57BB6B
 vert clair: #C4F2AD
 */
 
+
+
 html {
   border-top: 8px solid #57BB6B;
 
@@ -28,6 +30,7 @@ body {
   background: #ffffffdd;
   padding: 20px 50px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .site-header h1 {
@@ -70,6 +73,11 @@ body {
 .button:hover {
   background: #C4F2AD;
   color: #333;
+}
+
+.button-light {
+  background: #ffffff;
+  color: #57BB6B;
 }
 
 .fruits-container {
