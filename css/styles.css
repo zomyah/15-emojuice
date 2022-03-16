@@ -3,49 +3,79 @@
 /* bouton correction */
 /* margin padding*/
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family-main: 'Quattrocento', sans-serif;
+  --font-family-secondary: 'Maven Pro', sans-serif;
+  --font-family-third: 'Sriracha', cursive;
+  --color-main: #57bb6b;
+  --color-secondary: #fff;
+  --color-article: #c4f2ad;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-main);
+}
+
 body {
-  font-family: 'Maven Pro', sans-serif;
+  background: var(--color-article);
+  max-width: 380px;
+  margin: auto;
 }
 
 header {
-  background-color: aqua;
-  padding-top: 8px;
+  background-image: url("../img/imgtitre.webp");
+  padding: 30px;
+  margin-top: 8px;
 }
 
-header h1 {
-  font-family: 'Sriracha', cursive;
-  color: rgb(129, 185, 111);
-  font-size: 44px;
+.title-card {
+  background: #ffffffdd;
+  padding: 35px 55px;
+  margin: 0 0 35px;
+}
+
+.title-card p {
+  color: var(--color-main);
   text-align: center;
-}
-
-.title-box p {
+  font-family: var(--color-main);
   font-size: 20px;
-  color: rgb(129, 185, 111);
 }
 
-.btn-header {
-  background-color: rgb(129, 185, 111) ;
-  width: 244px;
-  text-align: center;
+header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button {
+  display: block;
+  margin: 0 auto 12px;
+  padding: 12px;
+  background: var(--color-main);
+  color: var(--color-secondary);
+  font-family: var(--font-family-secondary);
+  text-decoration: none;
+  box-shadow: 0 0 20px #00000025;
+  font-size: 20px;
   border-radius: 15px;
-  font-size: 20px;
-  margin-bottom: 18px;
 }
 
-.btn-header-light {
-  background-color: white;
-  width: 244px;
-  text-align: center;
-  border-radius: 15px;
-  font-size: 20px;
-  color: rgb(129, 185, 111);
+.button:hover,
+.button-light,
+.button:active {
+  background: var(--color-secondary);
+  color: var(--color-main);
+  transition: 0.3s;
 }
-.btn-header-light:active {
-  color: rgb(129, 185, 111);
+
+.button-light:hover {
+  background: var(--color-article);
+  color: var(--color-main);
 }
-.title-box {
-  width: 320px;
-  text-align: center;
-  width: 244px;
-}
+
