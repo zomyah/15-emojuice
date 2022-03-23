@@ -29,7 +29,7 @@ body {
 }
 
 header {
-  background-image: url("../img/imgtitre.webp");
+  background-image: url("../img/img-titre.webp");
   padding: 30px;
   margin-top: 8px;
 }
@@ -77,5 +77,142 @@ header nav {
 .button-light:hover {
   background: var(--color-article);
   color: var(--color-main);
+  font-family: var(--font-family-main);
 }
 
+main {
+  align-items: center;
+  text-align: center;
+}
+
+main h2 {
+  color: white;
+  font-family: var(--font-family-secondary);
+  text-align: center;
+}
+
+main h3 {
+  font-family: var(--font-family-secondary);
+}
+
+.card {
+  background: var(--color-secondary);
+  padding: 90px 55px;
+}
+
+.card p,
+.card span {
+  font-family: var(--font-family-main);
+  margin: 0 0 30px;
+}
+
+.card span {
+  font-weight: 700;
+} 
+
+.card h3 {
+  font-size: 26px;
+  font-family: var(--font-family-secondary);
+  margin: 0 0 30px;
+}
+
+.product {
+  background: var(--color-main);
+}
+
+.logo-fruit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-fruit img {
+  width: 10%;
+}
+
+.article-box {
+  background: var(--color-secondary);
+  padding: 30px;
+  margin: 40px 0;
+  border-radius: 22px;
+  box-shadow: 0 0 20px #0000006b;
+  text-align: left;
+}
+
+.article-box h1 {
+  font-family: var(--font-family-third);
+  font-size: 30px;
+}
+
+.article-box p {
+  font-family: var(--font-family-main);
+  font-size: 16px;
+  margin: 0 0 30px;
+  color: #0000006b;
+}
+
+.article-box a {
+  font-family: var(--font-family-secondary);
+  color: #000;
+  font-weight: 700;
+}
+
+.article-box div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.article-box div img {
+  max-width: 80px;
+}
+
+.product {
+  padding: 35px 30px;
+}
+
+.product h2 {
+  font-size: 26px;
+}
+
+.banana {
+  background-color: #fff8d7;
+}
+
+.kiwi {
+  background-color: var(--color-article);
+}
+
+.coffe {
+  background-color: #d3c6b2;
+}
+
+.strawberry {
+  background-color: #f7a4b4;
+}
+
+footer {
+  background-color: var(--color-secondary);
+  color: var(--color-main);
+  text-align: center;
+  font-family: var(--font-family-secondary);
+  padding: 35px 55px;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h2 {
+  margin: 0 0 30px;
+}
+
+footer p {
+  margin: 0 auto 35px;
+  font-size: 12px;
+}
+
+footer .button:last-of-type {
+  margin: 0 auto 60px;
+}

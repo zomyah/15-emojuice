@@ -7,14 +7,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" 
-      rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" 
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Quattrocento:wght@400;700&family=Sriracha&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -27,35 +20,86 @@
           </p>
         </div>
         <nav>
-          <a href="#about" class="button">
+          <a href="#product" class="button">
             Accédez à nos produits
           </a>
-          <a href="#about" class="button button-light">
-            <!--liens à crée  -->
+          <a href="#contact" class="button button-light">
             Nous contacter
           </a>
         </nav>
     </header>
     <main>
-      <div class="card-presentation">
+      <div class="card">
         <h3>
           Manger sainement: “un art de vie"
         </h3>
         <p>
-          Chez emojuice, nous tentons de vous fournir 
-          des produits sains et respectueuxde la planète.
+          Chez <span>emojuice</span>, nous tentons de vous fournir 
+          des produits <span>sains</span> et <span>respectueux</span> de la planète.
         </p>
         <div class="logo-fruit">
-          <img src="../img/pêche-logo.png">
-          <img src="../img/citron-logo.png">
-          <img src="../img/fraise-logo.png">
-          <img src="../img/orange-logo.png">
+          <img src="img/peche-logo.svg">
+          <img src="img/citron-logo.svg">
+          <img src="img/pasteque-logo.svg">
+          <img src="img/orange-logo.svg">
         </div>
       </div>
       <div class="product">
-        <h2 id="#about">Accédez à nos produits</h2>
-      <!-- controler div main pour article -->
+        <h2 id="product"> Nos produits</h2>
+        <article class="article-box banana">
+          <h1>Jus Banane</h1>
+          <p>Notre plus grand classique</p>
+          <div>
+            <a href="kiwi.html">En savoir plus</a>
+            <img src="img/banane-logo.svg">
+          </div>
+        </article>
+        <article class="article-box kiwi">
+          <h1>Sirop kiwi</h1>
+          <p>En vert et contre tous.</p>
+          <div>
+            <a href="kiwi.html">En savoir plus</a>
+            <img src="img/kiwi-logo.svg">
+          </div>
+        </article>
+        <article class="article-box coffee">
+          <h1>Glace au café</h1>
+          <p>«Un espresso pour Georges!»</p>
+          <div>
+            <a href="kiwi.html">En savoir plus</a>
+            <img src="img/café-logo.svg">
+          </div>
+        </article>
+        <article class="article-box strawberry">
+          <h1>Délice à la fraise</h1>
+          <p>La voilà qui ramène sa fraise.</p>
+          <div>
+            <a href="kiwi.html">En savoir plus</a>
+            <img src="img/fraise-logo.svg">
+          </div>
+        </article>
       </div>
     </main>
+    <footer>
+      <h2 id="contact">Nous contacter</h2>
+      <nav>
+        <a href="mailto:emojuice@veggies.ch" target="_blank" class="button">
+          emojuice@veggies.ch
+        </a>
+        <a href="https://www.instagram.com/?hl=fr" target="_blank" class="button">
+          Instagram
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" class="button">
+          Facebook
+        </a>
+      </nav>
+      <p>Emojuice est une marque déposée par Veggies inc. Switzerland.</p>
+      <div class="logo-fruit">
+        <img src="img/banane-logo.svg">
+        <img src="img/kiwi-logo.svg">
+        <img src="img/pomme-logo.svg">
+        <img src="img/ananas-logo.svg">
+      </div>
+    </footer>
   </body>
 </html>
