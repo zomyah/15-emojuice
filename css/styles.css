@@ -187,6 +187,16 @@ main h4 {
   color: white;
   font-family: var(--font-family-main);
 }
+.product h6 {
+  font-size: 26px;
+  text-align: center;
+  font-family: var(--font-family-secondary);
+  font-weight: 100;
+}
+
+.product h5 {
+  font-family: var(--font-family-secondary);
+}
 
 .product h2 {
   font-size: 18px;
@@ -197,11 +207,16 @@ main h4 {
 
 .product h1 {
   font-size: 26px;
-  margin: 60px 0 55px 40px;
+  margin: 20px 0 10px 0px;
+  font-family: var(--font-family-secondary);
+  color: black;
+  text-align: left;
 }
 
 .product p {
-  margin: 0 0 40px 40px;
+  margin: 0 0 40px 0;
+  font-family: var(--font-family-secondary);
+  text-align: left;
 }
 
 .product ul {
@@ -272,10 +287,30 @@ footer .button:last-of-type {
 
 .other-product {
   display: flex;
+  padding: 20px;
+  margin: 30px 30px 40px 30px;
+  max-width: 110px;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
-  max-width: 110px;
+  height: 150px;
+  width: 150px;
+  flex-wrap: nowrap;
+}
+
+.other-element {
+  font-family: var(--font-family-main);
+}
+
+.other-element h2 {
+  margin: 60px;
+  font-size: 26px;
+  font-family: var(--font-family-secondary);
+  color: black;
+  font-weight: 100;
+}
+
+.product ul {
+  font-family: var(--font-family-main);
 }
 
 .strawberry-product img {
@@ -284,7 +319,15 @@ footer .button:last-of-type {
 
 .strawberry-product {
   background-color:  #f7a4b4;
+  font-family: var(--font-family-third);
+  text-align: left;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px 15px 15px 15px;
+}
 
+.other-product h1 {
+  font-size: 20px;
 }
 
 .coffee-product img {
@@ -293,5 +336,10 @@ footer .button:last-of-type {
 
 .coffee-product {
   background-color:  #d3c6b2;
+  font-family: var(--font-family-third);
+  text-align: left;
+  border-radius: 15px;
+  padding: 30px 30px 30px 30px;
+  margin: 15px 15px 15px 15px;
 }
 /* card kiwi tiny card ! */
